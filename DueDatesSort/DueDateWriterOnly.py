@@ -16,8 +16,8 @@ class CreateWorkbook:
             if 'quit' in add_hw or 'q' in add_hw:
                 finished_adding = True
                 break
-            add_date = input("What date is this homework due?: ").upper()
-            add_time = input("What time is this homework due?: ").upper()
+            add_date = input("What date is this homework due? (mm/dd/yy): ").upper()
+            add_time = input("What time is this homework due? (hr:min PM/AM): ").upper()
             add_course = input("What course is this hw for?: ").upper()
             add_notes = input("Any additional notes?: ")
             total_info = (add_hw, add_date, add_time, add_course, add_notes)
