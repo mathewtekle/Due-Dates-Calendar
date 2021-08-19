@@ -5,3 +5,5 @@
  Homework, Date, Time, Course, Notes (i.e. col 1, col 2..)
 
 **WARNING**: Currently, any data on the first row will be replaced by formatted headers. This program is best used when any existing data is below the first row
+
+Currently implementing a feature to allow the user to upload their excel sheet to google drive
